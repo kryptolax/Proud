@@ -1,0 +1,202 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	display: block;
+	background-image: url("cockpit_console.png");
+	background-size: 100% 100%;
+	margin: 0;
+}
+
+.launch {
+	background-color: #ffffff;
+	opacity: 0.5;
+}
+
+.start {
+
+}
+
+.start:hover {
+	cursor:help;
+}
+
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.highlighted {
+	background-color: #42f4f1;
+	opacity: 0.35;
+}
+
+.wrong {
+	background-color: #e52806;
+	opacity: 0.55;
+}
+
+.right {
+	background-color: #27c637;
+	opacity: 0.4;
+}
+
+.show_sequence_again {
+	background-color: #c3d83c;
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+.clickable {
+
+}
+
+.clickable:hover {
+	background-color: #000000;
+	opacity: 0.45;
+	cursor: pointer;
+}
+
+.clicked {
+	background-color: #ffffff;
+	opacity: 0.35;
+}
+
+
+
+
+
+
+
+
+
+
+.middle-row {
+	height: 59.2%;
+	width: 100%;
+	display: flex;
+}
+
+.top-row {
+	height: 19.8%;
+	width: 100%;
+	display: flex;
+}
+
+.bottom-row {
+	height: 21%;
+	width: 100%;
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+.column-five-top-1 {
+	height: 100%;
+	width: 22%;
+	display: block;
+}
+
+.column-five-top-2 {
+	height: 100%;
+	width: 21%;
+	display: block;
+}
+
+.column-five-top-3 {
+	height: 100%;
+	width: 17.3%;
+	display: block;
+}
+
+.column-five-top-4 {
+	height: 100%;
+	width: 21%;
+	display: block;
+}
+
+.column-five-top-5 {
+	height: 100%;
+	width: 22%;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.column-five-middle-1 {
+	height: 100%;
+	width: 19.1%;
+	display: block;
+}
+
+.column-five-middle-2 {
+	height: 100%;
+	width: 20.9%;
+	display: block;
+}
+
+.column-five-middle-3 {
+	height: 100%;
+	width: calc(100%/5);
+	display: block;
+}
+
+.column-five-middle-4 {
+	height: 100%;
+	width: 20.9%;
+	display: block;
+}
+
+.column-five-middle-5 {
+	height: 100%;
+	width: 19.1%;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.column-three-1 {
+	height: 100%;
+	width: calc(100%/3);
+	display: block;
+}
+
+.column-three-2 {
+	height: 100%;
+	width: calc(100%/3);
+	display: block;
+}
+
+.column-three-3 {
+	height: 100%;
+	width: calc(100%/3);
+	display: block;
+}
